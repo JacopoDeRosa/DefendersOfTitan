@@ -16,7 +16,7 @@ public class PortholeAiming : MonoBehaviour
     {
         if (_targeting.ActiveTarget == null)
         {
-            _targetPosition = transform.forward;
+            _targetPosition = transform.position + transform.forward;
         }
         else
         {
