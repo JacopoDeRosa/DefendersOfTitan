@@ -32,7 +32,7 @@ public class AiMover : MonoBehaviour
     private void EndMove()
     {
         if (_moving == false) return;
-        
+         
         _moving = false;
         _navMesh.isStopped = true;
         onArrived?.Invoke();

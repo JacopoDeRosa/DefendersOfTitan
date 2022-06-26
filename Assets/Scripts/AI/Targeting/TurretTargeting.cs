@@ -16,6 +16,17 @@ public class TurretTargeting : MonoBehaviour
     private Collider[] _possibleTargets;
 
     public Character ActiveTarget { get; private set; }
+    public LayerMask TargetingMask { get => _targetingMask; }
+
+    public void ResetTarget()
+    {
+        if (ActiveTarget != null)
+        {
+            ActiveTarget.SetTargeted(false);
+            ActiveTarget = null;
+            TryPingTarget();
+        }
+    }
 
     private void Awake()
     {
@@ -47,6 +58,7 @@ public class TurretTargeting : MonoBehaviour
             _nextPingTime = Time.time + _pingInterval;
         }
     }
+
 
 #if UNITY_EDITOR
     private void OnDrawGizmosSelected()

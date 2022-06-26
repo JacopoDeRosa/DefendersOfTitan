@@ -6,6 +6,7 @@ public class PortholeAiming : MonoBehaviour
 {
     [SerializeField] private Transform _ball;
     [SerializeField] private TurretTargeting _targeting;
+    [SerializeField] private Vector3 _targetingOffset;
     [SerializeField] private float _maxGimbal;
     [SerializeField] private float _ballRotHardness;
 
@@ -20,7 +21,7 @@ public class PortholeAiming : MonoBehaviour
         }
         else
         {
-            _targetPosition = _targeting.ActiveTarget.transform.position;
+            _targetPosition = _targeting.ActiveTarget.transform.position + _targetingOffset;
         }
 
         RotateBall();
