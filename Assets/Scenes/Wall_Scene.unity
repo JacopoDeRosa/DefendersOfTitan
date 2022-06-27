@@ -2274,7 +2274,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1609368042
 MonoBehaviour:
   m_ObjectHideFlags: 10
@@ -2350,9 +2350,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _template: {fileID: 247835074144349145, guid: d906da5aca4c85c4eb0a7fc75f7f14f5,
     type: 3}
-  _spawnRange: 10
-  _spawnRate: 0.1
-  _spawnAmount: 250
+  _spawnRange: 15
+  _spawnRate: 0.5
+  _spawnAmount: 100
 --- !u!4 &1676354777 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2084467556103246975, guid: fbe4604dfa2c8fe4a83812503f923fdd,

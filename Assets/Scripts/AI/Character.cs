@@ -10,7 +10,7 @@ public class Character : MonoBehaviour
 
     public void SetTargeted(bool targeted)
     {
-        Targeted = targeted;
+        //Targeted = targeted;
     }
 }
 
