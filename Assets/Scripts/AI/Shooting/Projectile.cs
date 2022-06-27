@@ -6,16 +6,18 @@ public class Projectile : MonoBehaviour
 {
     [SerializeField] private float _speed;
     [SerializeField] private float _lifeTime;
-    [SerializeField] private int _damage;
-    [SerializeField] private LayerMask _collisionMask;
+    [SerializeField] protected int _damage;
+    [SerializeField] protected LayerMask _collisionMask;
 
     private float _currentLifeTime;
+
+    public float Speed { get => _speed; }
 
     private void FixedUpdate()
     {
         if(_currentLifeTime >= _lifeTime)
         {
-            Destroy(gameObject);
+            OnDeath();
         }
         else
         {
@@ -26,11 +28,7 @@ public class Projectile : MonoBehaviour
 
         if(Physics.Raycast(checkRay, out RaycastHit hit,_speed * Time.fixedDeltaTime, _collisionMask))
         {
-            if(hit.transform.TryGetComponent(out Health health))
-            {
-                health.RemoveHp(_damage);
-            }
-            Destroy(gameObject);
+            OnHit(hit);
         }
         else
         {
@@ -38,5 +36,19 @@ public class Projectile : MonoBehaviour
             transform.Translate(translation, Space.Self);
         }
         
+    }
+
+    protected virtual void OnDeath()
+    {
+        Destroy(gameObject);
+    }
+
+    protected virtual void OnHit(RaycastHit hit)
+    {
+        if (hit.transform.TryGetComponent(out Health health))
+        {
+            health.RemoveHp(_damage);
+        }
+        Destroy(gameObject);
     }
 }

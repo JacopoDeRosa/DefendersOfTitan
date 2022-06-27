@@ -24,7 +24,6 @@ public class TurretTargeting : MonoBehaviour
         {
             ActiveTarget.SetTargeted(false);
             ActiveTarget = null;
-            TryPingTarget();
         }
     }
 

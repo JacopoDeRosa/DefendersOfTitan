@@ -2,28 +2,28 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PortholeAiming : MonoBehaviour
+public class PortholeAiming : TurretAiming
 {
     [SerializeField] private Transform _ball;
-    [SerializeField] private TurretTargeting _targeting;
-    [SerializeField] private Vector3 _targetingOffset;
+
+
     [SerializeField] private float _maxGimbal;
     [SerializeField] private float _ballRotHardness;
 
-    private Vector3 _targetPosition;
+    
     Quaternion _ballTargetRot;
 
-    private void Update()
+#if UNITY_EDITOR
+    private void OnDrawGizmosSelected()
     {
-        if (_targeting.ActiveTarget == null)
-        {
-            _targetPosition = transform.position + transform.forward;
-        }
-        else
-        {
-            _targetPosition = _targeting.ActiveTarget.transform.position + _targetingOffset;
-        }
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawSphere(_targetPosition, 0.25f);
+    }
+#endif
 
+    protected override void Update()
+    {
+        base.Update();
         RotateBall();
     }
 

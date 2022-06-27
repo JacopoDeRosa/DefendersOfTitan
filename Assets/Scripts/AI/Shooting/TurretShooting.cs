@@ -17,7 +17,7 @@ public class TurretShooting : MonoBehaviour
     {
         if (_targeting.ActiveTarget != null && _enemyMissedTimer < _timeUntilRetarget)
         {
-            if (Physics.Raycast(new Ray(_muzzle.position, _muzzle.forward), Mathf.Infinity, _targeting.TargetingMask))
+            if (Physics.SphereCast(new Ray(_muzzle.position, _muzzle.forward), 0.5f,Mathf.Infinity, _targeting.TargetingMask))
             {
                 TryFire();
                 _enemyMissedTimer = 0;
@@ -42,5 +42,4 @@ public class TurretShooting : MonoBehaviour
             _nextShotTime = Time.time + _fireRate;
         }
     }
-
 }
