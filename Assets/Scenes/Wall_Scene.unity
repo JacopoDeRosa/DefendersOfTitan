@@ -1011,7 +1011,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 314b83b201b834d4c96c5d2f7e537e19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _pingRange: 25
+  _pingRange: 50
   _pingInterval: 0.25
   _targetingMask:
     serializedVersion: 2
@@ -1031,9 +1031,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _ball: {fileID: 868035389}
   _targeting: {fileID: 457051181}
-  _targetingOffset: {x: 0, y: 0.5, z: 1}
-  _maxGimbal: 45
-  _ballRotHardness: 6
+  _targetingOffset: {x: 0, y: 0.5, z: 0}
+  _maxGimbal: 55
+  _ballRotHardness: 10
 --- !u!114 &457051183
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1051,6 +1051,7 @@ MonoBehaviour:
   _bulletTemplate: {fileID: 8509451168153501668, guid: 5fe3aae2d77fbe94b8003daa3b78b74f,
     type: 3}
   _fireRate: 0.1
+  _timeUntilRetarget: 0.5
 --- !u!1 &458848700
 GameObject:
   m_ObjectHideFlags: 0
@@ -2736,9 +2737,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _ball: {fileID: 1303139810}
   _targeting: {fileID: 926866068}
-  _targetingOffset: {x: 0, y: 0.5, z: 1}
-  _maxGimbal: 45
-  _ballRotHardness: 6
+  _targetingOffset: {x: 0, y: 0.5, z: 0}
+  _maxGimbal: 55
+  _ballRotHardness: 10
 --- !u!114 &926866068
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2751,7 +2752,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 314b83b201b834d4c96c5d2f7e537e19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _pingRange: 25
+  _pingRange: 50
   _pingInterval: 0.25
   _targetingMask:
     serializedVersion: 2
@@ -2774,6 +2775,7 @@ MonoBehaviour:
   _bulletTemplate: {fileID: 8509451168153501668, guid: 5fe3aae2d77fbe94b8003daa3b78b74f,
     type: 3}
   _fireRate: 0.1
+  _timeUntilRetarget: 0.5
 --- !u!1 &940863876
 GameObject:
   m_ObjectHideFlags: 0
