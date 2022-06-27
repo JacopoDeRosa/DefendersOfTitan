@@ -18,7 +18,7 @@ public class BoomBoxController : MonoBehaviour
 
     private void OnDeath()
     {
-        Explode();
+        Destroy(gameObject);
     }
     private void OnArrive()
     {

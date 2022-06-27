@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class TurretTargeting : MonoBehaviour
 {
-    private const int targetingBufferSize = 20;
-
-    [SerializeField] private float _pingRange;
+    [SerializeField] private Vector3 _pingBoxSize;
+    [SerializeField] private Vector3 _pingBoxCenter;
     [SerializeField] private float _pingInterval;
     [SerializeField] private LayerMask _targetingMask;
     [SerializeField] private bool _allowPings = true;
@@ -15,6 +14,7 @@ public class TurretTargeting : MonoBehaviour
 
     private Collider[] _possibleTargets;
 
+    private Character _lastTarget;
     public Character ActiveTarget { get; private set; }
     public LayerMask TargetingMask { get => _targetingMask; }
 
@@ -27,14 +27,9 @@ public class TurretTargeting : MonoBehaviour
         }
     }
 
-    private void Awake()
-    {
-        _possibleTargets = new Collider[targetingBufferSize];
-    }
-
     private void TryPingTarget()
     {
-        Physics.OverlapSphereNonAlloc(transform.position, _pingRange, _possibleTargets, _targetingMask);
+        _possibleTargets = Physics.OverlapBox(transform.position + _pingBoxCenter, _pingBoxSize / 2, Quaternion.identity, _targetingMask);
 
         foreach (Collider collider in _possibleTargets)
         {
@@ -42,6 +37,10 @@ public class TurretTargeting : MonoBehaviour
 
             if (collider.TryGetComponent(out Character character) && character.Targeted == false)
             {
+                if(_lastTarget != null && _lastTarget == character)
+                {
+                    return;
+                }
                 ActiveTarget = character;
                 character.SetTargeted(true);
                 return;
@@ -63,7 +62,7 @@ public class TurretTargeting : MonoBehaviour
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.blue;
-        Gizmos.DrawWireSphere(transform.position, _pingRange);
+        Gizmos.DrawWireCube(_pingBoxCenter + transform.position, _pingBoxSize);
 
         Gizmos.color = Color.red;
 
