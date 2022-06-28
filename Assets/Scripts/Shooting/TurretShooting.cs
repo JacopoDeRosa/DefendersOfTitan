@@ -9,6 +9,7 @@ public class TurretShooting : MonoBehaviour
     [SerializeField] private Projectile _bulletTemplate;
     [SerializeField] private float _fireRate;
     [SerializeField] private float _timeUntilRetarget = 2;
+    [SerializeField] private float _spread;
 
     private float _nextShotTime;
     private float _enemyMissedTimer;
@@ -38,7 +39,7 @@ public class TurretShooting : MonoBehaviour
     {
         if (_nextShotTime <= Time.time)
         {
-            Instantiate(_bulletTemplate, _muzzle.position, _muzzle.rotation);
+            Instantiate(_bulletTemplate, _muzzle.position, _muzzle.rotation * Quaternion.Euler(Random.Range(-_spread, _spread), Random.Range(-_spread, _spread), 0));
             _nextShotTime = Time.time + _fireRate;
         }
     }

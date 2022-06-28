@@ -261,6 +261,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Porthole (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4130352411521912529, guid: bbd83e1fe9290d4418add8bb7169bd1d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bbd83e1fe9290d4418add8bb7169bd1d, type: 3}
 --- !u!4 &56366179 stripped
@@ -336,6 +341,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Turret
       objectReference: {fileID: 0}
+    - target: {fileID: 6772484152678929981, guid: 2bf6388a0d372e4479fed4e76516e101,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2bf6388a0d372e4479fed4e76516e101, type: 3}
 --- !u!4 &109907737 stripped
@@ -361,6 +371,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Barricade (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61654699200364620, guid: f9c39b416d7ab2f4d96706f931fa07ea,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3496639353467556614, guid: f9c39b416d7ab2f4d96706f931fa07ea,
         type: 3}
@@ -431,6 +446,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barricade (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 61654699200364620, guid: f9c39b416d7ab2f4d96706f931fa07ea,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 3496639353467556614, guid: f9c39b416d7ab2f4d96706f931fa07ea,
         type: 3}
       propertyPath: m_RootOrder
@@ -500,6 +520,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Normal (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1834520938590726023, guid: 485d5d580ebcef8489e1cf4150a5fe2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 8621277441965593908, guid: 485d5d580ebcef8489e1cf4150a5fe2b,
         type: 3}
       propertyPath: m_RootOrder
@@ -568,6 +593,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall_Normal (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1834520938590726023, guid: 485d5d580ebcef8489e1cf4150a5fe2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8621277441965593908, guid: 485d5d580ebcef8489e1cf4150a5fe2b,
         type: 3}
@@ -796,7 +826,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 12
   m_IsActive: 1
 --- !u!4 &352375228
 Transform:
@@ -933,6 +963,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Normal (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1834520938590726023, guid: 485d5d580ebcef8489e1cf4150a5fe2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 8621277441965593908, guid: 485d5d580ebcef8489e1cf4150a5fe2b,
         type: 3}
       propertyPath: m_RootOrder
@@ -1032,6 +1067,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1619546300}
+  - {fileID: 1073981429}
+  - {fileID: 1353412754}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1294,6 +1331,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Turret (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772484152678929981, guid: 2bf6388a0d372e4479fed4e76516e101,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2bf6388a0d372e4479fed4e76516e101, type: 3}
 --- !u!4 &438170521 stripped
@@ -1372,7 +1414,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 12
   m_IsActive: 1
 --- !u!4 &479316989
 Transform:
@@ -1553,6 +1595,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barricade (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 61654699200364620, guid: f9c39b416d7ab2f4d96706f931fa07ea,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 3496639353467556614, guid: f9c39b416d7ab2f4d96706f931fa07ea,
         type: 3}
       propertyPath: m_RootOrder
@@ -1668,6 +1715,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barricade (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 61654699200364620, guid: f9c39b416d7ab2f4d96706f931fa07ea,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 3496639353467556614, guid: f9c39b416d7ab2f4d96706f931fa07ea,
         type: 3}
       propertyPath: m_RootOrder
@@ -1742,7 +1794,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 12
   m_IsActive: 1
 --- !u!4 &565008301
 Transform:
@@ -1907,7 +1959,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 12
   m_IsActive: 1
 --- !u!4 &602668264
 Transform:
@@ -1922,7 +1974,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 605119564}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &602668265
 BoxCollider:
@@ -1952,7 +2004,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 12
   m_IsActive: 1
 --- !u!4 &605119564
 Transform:
@@ -1966,8 +2018,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 633610013}
   - {fileID: 602668264}
+  - {fileID: 633610013}
   - {fileID: 109907737}
   - {fileID: 613068186}
   - {fileID: 438170521}
@@ -2065,6 +2117,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Turret_Plate (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7444514159934317363, guid: d311a3c9428ce5243b477bc31ac70003,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d311a3c9428ce5243b477bc31ac70003, type: 3}
 --- !u!4 &613068186 stripped
@@ -2083,7 +2140,7 @@ PrefabInstance:
     - target: {fileID: 3489516144079194083, guid: d311a3c9428ce5243b477bc31ac70003,
         type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3489516144079194083, guid: d311a3c9428ce5243b477bc31ac70003,
         type: 3}
@@ -2139,6 +2196,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Turret_Plate
+      objectReference: {fileID: 0}
+    - target: {fileID: 7444514159934317363, guid: d311a3c9428ce5243b477bc31ac70003,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d311a3c9428ce5243b477bc31ac70003, type: 3}
@@ -2221,6 +2283,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Porthole
       objectReference: {fileID: 0}
+    - target: {fileID: 4130352411521912529, guid: bbd83e1fe9290d4418add8bb7169bd1d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bbd83e1fe9290d4418add8bb7169bd1d, type: 3}
 --- !u!1001 &693600534
@@ -2234,6 +2301,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Barricade (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61654699200364620, guid: f9c39b416d7ab2f4d96706f931fa07ea,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3496639353467556614, guid: f9c39b416d7ab2f4d96706f931fa07ea,
         type: 3}
@@ -2303,6 +2375,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall_Normal (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1834520938590726023, guid: 485d5d580ebcef8489e1cf4150a5fe2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8621277441965593908, guid: 485d5d580ebcef8489e1cf4150a5fe2b,
         type: 3}
@@ -2417,6 +2494,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Normal (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1834520938590726023, guid: 485d5d580ebcef8489e1cf4150a5fe2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 8621277441965593908, guid: 485d5d580ebcef8489e1cf4150a5fe2b,
         type: 3}
       propertyPath: m_RootOrder
@@ -2491,7 +2573,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 12
   m_IsActive: 1
 --- !u!4 &822874968
 Transform:
@@ -2635,7 +2717,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 12
   m_IsActive: 1
 --- !u!4 &878568771
 Transform:
@@ -2683,6 +2765,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Barricade
+      objectReference: {fileID: 0}
+    - target: {fileID: 61654699200364620, guid: f9c39b416d7ab2f4d96706f931fa07ea,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3496639353467556614, guid: f9c39b416d7ab2f4d96706f931fa07ea,
         type: 3}
@@ -2765,6 +2852,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Normal
       objectReference: {fileID: 0}
+    - target: {fileID: 1834520938590726023, guid: 485d5d580ebcef8489e1cf4150a5fe2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 8621277441965593908, guid: 485d5d580ebcef8489e1cf4150a5fe2b,
         type: 3}
       propertyPath: m_RootOrder
@@ -2834,6 +2926,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barricade (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 61654699200364620, guid: f9c39b416d7ab2f4d96706f931fa07ea,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 3496639353467556614, guid: f9c39b416d7ab2f4d96706f931fa07ea,
         type: 3}
       propertyPath: m_RootOrder
@@ -2891,6 +2988,55 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9c39b416d7ab2f4d96706f931fa07ea, type: 3}
+--- !u!1 &1073981428
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1073981429}
+  - component: {fileID: 1073981430}
+  m_Layer: 0
+  m_Name: Bombardier Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1073981429
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073981428}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 115}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 385858521}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &1073981430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073981428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f777d139ca08554787b7e08aee6d168, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _template: {fileID: 7767960253060945512, guid: eec21c3266cda82468ccc9aeefe990d8,
+    type: 3}
+  _spawnRange: 25
+  _spawnRate: 0.75
+  _spawnAmount: 100
 --- !u!1001 &1107974828
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2902,6 +3048,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Porthole_AutoLas R
+      objectReference: {fileID: 0}
+    - target: {fileID: 7664638976128008020, guid: 6cab526a048bf094dbe62c3f101d118f,
+        type: 3}
+      propertyPath: _spread
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7664638976128008023, guid: 6cab526a048bf094dbe62c3f101d118f,
         type: 3}
@@ -2984,6 +3135,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Normal (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1834520938590726023, guid: 485d5d580ebcef8489e1cf4150a5fe2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 8621277441965593908, guid: 485d5d580ebcef8489e1cf4150a5fe2b,
         type: 3}
       propertyPath: m_RootOrder
@@ -3058,7 +3214,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 12
   m_IsActive: 1
 --- !u!4 &1296461279
 Transform:
@@ -3221,6 +3377,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barricade (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 61654699200364620, guid: f9c39b416d7ab2f4d96706f931fa07ea,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 3496639353467556614, guid: f9c39b416d7ab2f4d96706f931fa07ea,
         type: 3}
       propertyPath: m_RootOrder
@@ -3347,6 +3508,55 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fbe4604dfa2c8fe4a83812503f923fdd, type: 3}
+--- !u!1 &1353412753
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1353412754}
+  - component: {fileID: 1353412755}
+  m_Layer: 0
+  m_Name: Boombox Spawner L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1353412754
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1353412753}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 30, y: 0, z: 75}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 385858521}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &1353412755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1353412753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f777d139ca08554787b7e08aee6d168, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _template: {fileID: 247835074144349145, guid: d906da5aca4c85c4eb0a7fc75f7f14f5,
+    type: 3}
+  _spawnRange: 15
+  _spawnRate: 0.5
+  _spawnAmount: 75
 --- !u!1 &1404406472
 GameObject:
   m_ObjectHideFlags: 0
@@ -3475,7 +3685,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 12
   m_IsActive: 1
 --- !u!114 &1515300462
 MonoBehaviour:
@@ -3521,6 +3731,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall_Normal (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1834520938590726023, guid: 485d5d580ebcef8489e1cf4150a5fe2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8621277441965593908, guid: 485d5d580ebcef8489e1cf4150a5fe2b,
         type: 3}
@@ -3646,6 +3861,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Turret_Plate (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7444514159934317363, guid: d311a3c9428ce5243b477bc31ac70003,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d311a3c9428ce5243b477bc31ac70003, type: 3}
 --- !u!4 &1535050416 stripped
@@ -3717,7 +3937,7 @@ GameObject:
   - component: {fileID: 1619546300}
   - component: {fileID: 1619546301}
   m_Layer: 0
-  m_Name: Boombox Spawner
+  m_Name: Boombox Spawner R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3731,7 +3951,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1619546299}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 75}
+  m_LocalPosition: {x: -30, y: 0, z: 75}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3754,7 +3974,7 @@ MonoBehaviour:
     type: 3}
   _spawnRange: 15
   _spawnRate: 0.5
-  _spawnAmount: 100
+  _spawnAmount: 75
 --- !u!4 &1647019076 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3496639353467556614, guid: f9c39b416d7ab2f4d96706f931fa07ea,
@@ -3852,6 +4072,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Turret (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772484152678929981, guid: 2bf6388a0d372e4479fed4e76516e101,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2bf6388a0d372e4479fed4e76516e101, type: 3}
 --- !u!4 &1794710420 stripped
@@ -3901,6 +4126,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Barricade (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61654699200364620, guid: f9c39b416d7ab2f4d96706f931fa07ea,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3496639353467556614, guid: f9c39b416d7ab2f4d96706f931fa07ea,
         type: 3}
@@ -3976,6 +4206,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Barricade (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61654699200364620, guid: f9c39b416d7ab2f4d96706f931fa07ea,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3496639353467556614, guid: f9c39b416d7ab2f4d96706f931fa07ea,
         type: 3}
@@ -4114,6 +4349,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Porthole_AutoLas L
+      objectReference: {fileID: 0}
+    - target: {fileID: 7664638976128008020, guid: 6cab526a048bf094dbe62c3f101d118f,
+        type: 3}
+      propertyPath: _spread
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7664638976128008023, guid: 6cab526a048bf094dbe62c3f101d118f,
         type: 3}
