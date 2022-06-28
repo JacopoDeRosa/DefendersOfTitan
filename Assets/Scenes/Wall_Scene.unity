@@ -2999,7 +2999,7 @@ GameObject:
   - component: {fileID: 1073981429}
   - component: {fileID: 1073981430}
   m_Layer: 0
-  m_Name: Bombardier Spawner
+  m_Name: Lamprey Spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3032,7 +3032,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f777d139ca08554787b7e08aee6d168, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _template: {fileID: 7767960253060945512, guid: eec21c3266cda82468ccc9aeefe990d8,
+  _template: {fileID: 7767960253060945512, guid: 8c5703f20ae439b48a8f58848286aaab,
     type: 3}
   _spawnRange: 25
   _spawnRate: 0.75
@@ -3519,7 +3519,7 @@ GameObject:
   - component: {fileID: 1353412754}
   - component: {fileID: 1353412755}
   m_Layer: 0
-  m_Name: Boombox Spawner L
+  m_Name: Immolator Spawner L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3937,7 +3937,7 @@ GameObject:
   - component: {fileID: 1619546300}
   - component: {fileID: 1619546301}
   m_Layer: 0
-  m_Name: Boombox Spawner R
+  m_Name: Immolator Spawner R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
