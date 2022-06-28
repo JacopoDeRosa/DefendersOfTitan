@@ -311,7 +311,7 @@ MonoBehaviour:
   _damage: 15
   _collisionMask:
     serializedVersion: 2
-    m_Bits: 65
+    m_Bits: 73
 --- !u!1 &8509451169464283009
 GameObject:
   m_ObjectHideFlags: 0

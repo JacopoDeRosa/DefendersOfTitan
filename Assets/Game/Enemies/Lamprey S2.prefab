@@ -250,7 +250,7 @@ MonoBehaviour:
     limitMaxStepHeight: 0
     maxStepHeight: 0.5
     detachedComfortPosRel: 0
-    comfortPosRel: {x: -0.36652374, y: -1.0950217, z: 0.40045524}
+    comfortPosRel: {x: -0.36652374, y: -1.0950217, z: 0.4004557}
     stepSpeedMin: 6
     stepSpeedBodySpeedMul: 2
     stepSpeedBodyRotSpeedMul: 4
@@ -289,16 +289,16 @@ MonoBehaviour:
     lastAirLen: 0
     lastAirTime: 0
     lastLandTime: 0
-    lastDockedAtLocal: {x: -0.36652374, y: -1.0950217, z: 0.40045524}
-    lastUndockedAtLocal: {x: -0.36652374, y: -1.0950217, z: 0.40045524}
+    lastDockedAtLocal: {x: -0.36652374, y: -1.0950217, z: 0.4004557}
+    lastUndockedAtLocal: {x: -0.36652374, y: -1.0950217, z: 0.4004557}
     basisAbs: {x: 0, y: 0, z: 0}
     acceleration: {x: 0, y: 0, z: 0}
     comfortFromSkel: 0
-    bestTargetConservativeAbs: {x: -0.40045524, y: -0.00002169609, z: -20.366524}
-    bestTargetConservativeUnprojAbs: {x: -0.40045524, y: -0.00002169609, z: -20.366524}
+    bestTargetConservativeAbs: {x: -0.4004557, y: -0.00002169609, z: -20.366524}
+    bestTargetConservativeUnprojAbs: {x: -0.4004557, y: -0.00002169609, z: -20.366524}
     bestTargetConservativeUnprojAbs2: {x: 0, y: 0, z: 0}
-    bestTargetProgressiveAbs: {x: -0.40045524, y: -0.00002169609, z: -20.366524}
-    posAbs: {x: -0.40045524, y: -0.00002169609, z: -20.366524}
+    bestTargetProgressiveAbs: {x: -0.4004557, y: -0.00002169609, z: -20.366524}
+    posAbs: {x: -0.4004557, y: -0.00002169609, z: -20.366524}
     wantedSpeed: {x: 0, y: 0, z: 0}
     speedAbs: {x: 0, y: 0, z: 0}
     undockPauseCur: 0
@@ -315,7 +315,7 @@ MonoBehaviour:
     beFaster: 0
     legSpeed: 4
     g: {x: 0, y: -9.81, z: 0}
-    oldPosAbs: {x: -0.40045524, y: -0.00002169609, z: -20.366524}
+    oldPosAbs: {x: -0.4004557, y: -0.00002169609, z: -20.366524}
     airParam: 0
     canGoAir: 0
     airTarget: {x: 0, y: 0, z: 0}
@@ -340,13 +340,13 @@ MonoBehaviour:
   target: {fileID: 0}
   targetPosRel: {x: 0.013476282, y: -0.97802174, z: 0.01645559}
   targetRotRel: {x: 0, y: 0, z: 0, w: 1.0000387}
-  targetPos: {x: -0.40045467, y: -0.00002169609, z: -20.366524}
+  targetPos: {x: -0.40045562, y: -0.00002169609, z: -20.366524}
   targetRot: {x: 0, y: -0.70713425, z: 0, w: 0.70713425}
   useLimits: 1
   minLen: 0.24783783
   maxLen: 1.2467742
   comfort: 0.70444137
-  limitedResultTarget: {x: -0.40045467, y: -0.000021673739, z: -20.366524}
+  limitedResultTarget: {x: -0.40045562, y: -0.000021673739, z: -20.366524}
   footLocal: {x: 0, y: 0.1, z: 0}
   wanteds:
   - {x: 0.2630815, y: -0.16603874, z: 0.0030779243}
@@ -358,14 +358,14 @@ MonoBehaviour:
   - {fileID: 7767960252838564712}
   - {fileID: 0}
   bonesDeltaPos:
-  - {x: -0.026034776, y: 0.0075230864, z: -0.013622851}
-  - {x: -0.04381088, y: 0.0141008245, z: 0.0010765292}
-  - {x: 0.005078189, y: -0.026238926, z: 0.013651288}
+  - {x: -0.026034784, y: 0.0075230976, z: -0.013622828}
+  - {x: -0.043810878, y: 0.014100825, z: 0.0010763641}
+  - {x: 0.0050781947, y: -0.026238928, z: 0.013650858}
   - {x: 0, y: 0, z: 0}
   bonesDeltaRot:
-  - {x: -0.19008604, y: 0.68107814, z: 0.20281422, w: 0.6773968}
-  - {x: 0.6805741, y: -0.19188283, z: -0.6840499, w: -0.179097}
-  - {x: -0.43369943, y: 0.55848444, z: 0.4440877, w: 0.55026}
+  - {x: -0.1900857, y: 0.68107826, z: 0.2028146, w: 0.6773966}
+  - {x: 0.680574, y: -0.19188322, z: -0.68404996, w: -0.17909662}
+  - {x: -0.43369913, y: 0.5584847, z: 0.444088, w: 0.55025977}
   - {x: 0, y: 0, z: 0, w: 0}
   basePos: {x: -0.384, y: 0.97800004, z: -20.380001}
   baseRot: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
@@ -383,7 +383,7 @@ MonoBehaviour:
     axisAbs: {x: -0.00000011920929, y: 0, z: 1.0000001}
     secondaryAxisRel: {x: 0, y: -1, z: 0}
     secondaryAxisAbs: {x: -0, y: -1, z: 0}
-    lastResult: {x: -0.99982446, y: 0.018737324, z: -0.00000011918835}
+    lastResult: {x: -0.9998244, y: 0.018738408, z: -0.00000011918834}
     rotSpeedAtEquator: 50
     rotSpeedAtPole: 0.1
     poleAxisStrength: 0
@@ -2018,7 +2018,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7767960253057342211}
   - component: {fileID: 7767960253057342215}
-  - component: {fileID: 7767960253057342210}
   - component: {fileID: 7767960253057342209}
   - component: {fileID: 7767960253057342208}
   - component: {fileID: 5301865651074038088}
@@ -2139,22 +2138,6 @@ MonoBehaviour:
   bodyDeltaR: {x: 0, y: 0, z: 0, w: 0}
   hipDeltaPos: {x: 0, y: 0, z: 0}
   hipDeltaRot: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &7767960253057342210
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7767960253057342214}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 16b990dfe1ffd45199195dfbd2fd28be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  detector:
-    layer:
-      serializedVersion: 2
-      m_Bits: 0
 --- !u!54 &7767960253057342209
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2330,10 +2313,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _health: {fileID: 7767960253060945513}
   _mover: {fileID: 7767960253060945514}
+  _rigidbody: {fileID: 7767960253057342209}
   _projectile: {fileID: 268458519145881206, guid: e6289629ec1a8ca4b8c4469efdeaac66,
     type: 3}
   _muzzle: {fileID: 7767960252737113859}
-  _fireRate: 0.75
+  _fireRate: 1
+  _recoil: 6
 --- !u!65 &7767960253060945492
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -39,7 +39,13 @@ public class Health : MonoBehaviour
             _currentHp = 0;
             _dead = true;
             onDeath?.Invoke();
+            OnDeath();
         }
+
+    }
+
+    protected virtual void OnDeath()
+    {
 
     }
 

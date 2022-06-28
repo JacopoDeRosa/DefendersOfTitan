@@ -6,9 +6,11 @@ public class BombardierController : MonoBehaviour
 {
     [SerializeField] private Health _health;
     [SerializeField] private AiMover _mover;
+    [SerializeField] private Rigidbody _rigidbody;
     [SerializeField] private Projectile _projectile;
     [SerializeField] private Transform _muzzle;
     [SerializeField] private float _fireRate;
+    [SerializeField] private float _recoil;
 
     private float _nextShotTime;
     private bool _shooting;
@@ -49,5 +51,6 @@ public class BombardierController : MonoBehaviour
     {
         Instantiate(_projectile, _muzzle.position, _muzzle.rotation);
         _nextShotTime = Time.time + _fireRate;
+        _rigidbody.AddForce(-transform.forward * _recoil, ForceMode.Impulse);
     }
 }

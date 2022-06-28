@@ -311,7 +311,7 @@ MonoBehaviour:
   _damage: 50
   _collisionMask:
     serializedVersion: 2
-    m_Bits: 65
+    m_Bits: 73
   _explosiveRange: 5
   _explosionFX: {fileID: 2787572846882532923, guid: bb7f8c13603f6b544a59a5be4ee0b9cc,
     type: 3}
