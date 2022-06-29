@@ -170,6 +170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _targeting: {fileID: 7664638976128008022}
+  _shootingClip: {fileID: 8300000, guid: 6f4d0478090642443b563fe3c0f33e1c, type: 3}
   _muzzles:
   - {fileID: 7664638976225619500}
   _bulletTemplate: {fileID: 8509451168153501668, guid: 5fe3aae2d77fbe94b8003daa3b78b74f,
