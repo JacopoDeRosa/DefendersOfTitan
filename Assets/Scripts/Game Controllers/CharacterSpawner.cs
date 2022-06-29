@@ -8,6 +8,7 @@ public class CharacterSpawner : MonoBehaviour
     [SerializeField] private float _spawnRange;
     [SerializeField] private float _spawnRate;
     [SerializeField] private int _spawnAmount;
+    [SerializeField] private bool _spawnOnStart = true;
 
     private WaitForSeconds _wait;
 
@@ -16,8 +17,14 @@ public class CharacterSpawner : MonoBehaviour
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, _spawnRange);
     }
-
     private void Start()
+    {
+        if(_spawnOnStart)
+        {
+            StartSpawning();
+        }
+    }
+    public void StartSpawning()
     {
         StartCoroutine(SpawningRoutine());
     }
@@ -28,7 +35,6 @@ public class CharacterSpawner : MonoBehaviour
 
         Instantiate(_template, position, transform.rotation);
     }
-
     private IEnumerator SpawningRoutine()
     {
         _wait = new WaitForSeconds(_spawnRate);

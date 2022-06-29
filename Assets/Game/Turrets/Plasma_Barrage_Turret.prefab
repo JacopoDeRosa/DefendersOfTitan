@@ -97,12 +97,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61f6f44dded7d3249b5100fd82ed11e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _targetingOffset: {x: 0, y: 0, z: 3}
+  _targetingHeight: 0
+  _targetingLead: 2
   _targeting: {fileID: 2084467556103246974}
   _turretRing: {fileID: 3310097032432547166}
   _cannon: {fileID: 2763576070205973642}
-  _ringRotationHardness: 1
-  _cannonRotationHardness: 1
+  _ringRotationHardness: 2
+  _cannonRotationHardness: 2
   _maxElevation: 30
   _maxDepression: -30
 --- !u!114 &2084467556103246969
@@ -118,11 +119,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _targeting: {fileID: 2084467556103246974}
-  _muzzle: {fileID: 2084467555128882616}
+  _muzzles:
+  - {fileID: 2084467555128882616}
   _bulletTemplate: {fileID: 3664942852588351106, guid: 5a9c534b2c7fbb64cacccbd8e9d0db10,
     type: 3}
   _fireRate: 0.5
-  _timeUntilRetarget: 0.5
+  _timeUntilRetarget: 1
+  _spread: 0
 --- !u!1 &2084467556250634385
 GameObject:
   m_ObjectHideFlags: 0

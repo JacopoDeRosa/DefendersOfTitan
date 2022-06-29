@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class TurretAiming : MonoBehaviour
 {
-    [SerializeField] private Vector3 _targetingOffset;
+    [SerializeField] private float _targetingHeight = 0.5f;
+    [SerializeField] private float _targetingLead = 1;
+
     [SerializeField] private TurretTargeting _targeting;
 
     protected Vector3 _targetPosition;
@@ -17,12 +19,12 @@ public class TurretAiming : MonoBehaviour
         }
         else
         {
-            _targetPosition = _targeting.ActiveTarget.transform.position + _targeting.ActiveTarget.transform.InverseTransformDirection(_targetingOffset);
+            _targetPosition = _targeting.ActiveTarget.transform.position + _targeting.ActiveTarget.transform.forward * _targetingLead + new Vector3(0, _targetingHeight, 0);
         }
     }
 
     public void SetTargetingLead(float lead)
     {
-        _targetingOffset.z = lead;
+        _targetingLead = lead;
     }
 }
