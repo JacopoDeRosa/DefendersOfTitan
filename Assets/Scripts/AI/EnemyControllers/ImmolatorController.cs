@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BoomBoxController : MonoBehaviour
+public class ImmolatorController : MonoBehaviour
 {
     [SerializeField] private Health _health;
     [SerializeField] private AiMover _mover;
@@ -28,7 +28,7 @@ public class BoomBoxController : MonoBehaviour
     private void Explode()
     {
         Debug.Log("Boom");
-        Destroy(gameObject);
+        _health.RemoveHp(500);
     }
 
 #if UNITY_EDITOR

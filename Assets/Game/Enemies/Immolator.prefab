@@ -325,6 +325,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data: {fileID: 11400000, guid: b15712892689c534faf29cfb45c80af9, type: 2}
+  _health: {fileID: 247835074144349157}
 --- !u!114 &247835074144349156
 MonoBehaviour:
   m_ObjectHideFlags: 0

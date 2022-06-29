@@ -12,6 +12,11 @@ public class CharacterSpawner : MonoBehaviour
 
     private WaitForSeconds _wait;
 
+    public event CharacterHandler onCharacterSpawn;
+
+    public Character Template { get => _template; }
+    public int Amount { get => _spawnAmount; }
+
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.yellow;
@@ -33,7 +38,8 @@ public class CharacterSpawner : MonoBehaviour
         Vector2 randomOffset = Random.insideUnitCircle * _spawnRange;
         Vector3 position = transform.position + new Vector3(randomOffset.x, 0, randomOffset.y);
 
-        Instantiate(_template, position, transform.rotation);
+        Character spawned = Instantiate(_template, position, transform.rotation);
+        onCharacterSpawn?.Invoke(spawned);
     }
     private IEnumerator SpawningRoutine()
     {
