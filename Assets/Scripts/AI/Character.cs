@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class Character : MonoBehaviour
 {
-    [SerializeField] private Health _health;
+    [SerializeField] private CharacterData _data;
 
+    public CharacterData Data { get => _data; }
     public bool Targeted { get; private set; }
 
     public void SetTargeted(bool targeted)
