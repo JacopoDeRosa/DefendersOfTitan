@@ -6,6 +6,7 @@ public class WaveManagerAudio : MonoBehaviour
 {
     [SerializeField] private WaveManager _waveManger;
     [SerializeField] private AudioClip[] _startSirens;
+    [SerializeField] private AudioSource _audioSource;
     private void Awake()
     {
         _waveManger.onWaveStarted += OnWaveStart;
@@ -13,6 +14,6 @@ public class WaveManagerAudio : MonoBehaviour
 
     private void OnWaveStart(Wave wave)
     {
-        AudioSource.PlayClipAtPoint(_startSirens[Random.Range(0, _startSirens.Length -1)], Camera.main.transform.position);
+        _audioSource.PlayOneShot(_startSirens[Random.Range(0, _startSirens.Length)]);
     }
 }

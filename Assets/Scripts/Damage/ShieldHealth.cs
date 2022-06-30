@@ -7,6 +7,5 @@ public class ShieldHealth : Health
     protected override void OnDeath()
     {
         Destroy(gameObject);
-        Debug.Log("Shield Down");
     }
 }

@@ -98,6 +98,7 @@ GameObject:
   - component: {fileID: 6212674590865387320}
   - component: {fileID: 6212674590865387323}
   - component: {fileID: 6212674590865387322}
+  - component: {fileID: 8700604134528740338}
   m_Layer: 0
   m_Name: Porthole_Annihilator
   m_TagString: Untagged
@@ -179,6 +180,20 @@ MonoBehaviour:
   _fireRate: 2
   _timeUntilRetarget: 0.5
   _spread: 1
+--- !u!114 &8700604134528740338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6212674590865387326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b61464c89e3f32458413ac8c00e8ef9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _icon: {fileID: 21300000, guid: c7732ccff7fba1b4599691be1a715bab, type: 3}
+  _turretType: 0
 --- !u!1 &6212674590938790380
 GameObject:
   m_ObjectHideFlags: 0

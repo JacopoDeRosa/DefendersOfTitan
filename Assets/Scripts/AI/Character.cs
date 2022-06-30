@@ -15,6 +15,7 @@ public class Character : MonoBehaviour
     private void Awake()
     {
         _health.onDeath += OnDeath;
+       
     }
 
     public void SetTargeted(bool targeted)
