@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: Squire_Data
   m_EditorClassIdentifier: 
   _name: Squire
-  _icon: {fileID: 21300000, guid: 97b4cc3d0d50eaa45b7fac033b0be0fa, type: 3}
+  _icon: {fileID: 21300000, guid: fcecbe830a6c43d448d3bb7a603372a9, type: 3}
+  _pointValue: 25

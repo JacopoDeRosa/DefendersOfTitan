@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: Immolator_Data
   m_EditorClassIdentifier: 
   _name: Immolator
-  _icon: {fileID: 21300000, guid: 97b4cc3d0d50eaa45b7fac033b0be0fa, type: 3}
+  _icon: {fileID: 21300000, guid: bdb9f775e07e2ac4b93026ab416a7a99, type: 3}
+  _pointValue: 5

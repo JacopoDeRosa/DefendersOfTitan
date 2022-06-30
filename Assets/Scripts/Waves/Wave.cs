@@ -36,7 +36,8 @@ public class Wave
         _activeCharacters.Remove(character);
         if(_activeCharacters.Count == 0)
         {
-            Debug.Log("Wave Over");
+            onWaveEnd?.Invoke();
+            Debug.Log("Wave " + _waveName + " Over");
         }
     }
 

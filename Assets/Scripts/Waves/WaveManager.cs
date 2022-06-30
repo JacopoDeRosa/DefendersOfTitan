@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class WaveManager : MonoBehaviour
 {
@@ -8,12 +9,11 @@ public class WaveManager : MonoBehaviour
 
     private int _currentWave = -1;
 
-    private void Start()
-    {
-        StartNextWave();
-    }
+    public bool IsFinalWave { get => _currentWave == _allWaves.Length - 1; }
 
-    private void StartNextWave()
+    public event Action onWaveEnded;
+
+    public void StartNextWave()
     {
         if(_currentWave == _allWaves.Length - 1)
         {
@@ -22,6 +22,7 @@ public class WaveManager : MonoBehaviour
 
         _currentWave++;
         _allWaves[_currentWave].StartWave();
+        _allWaves[_currentWave].onWaveEnd += OnWaveEnd;
     }
 
     public Wave GetNextWave()
@@ -32,6 +33,11 @@ public class WaveManager : MonoBehaviour
         }
 
         return _allWaves[_currentWave + 1];
+    }
+
+    private void OnWaveEnd()
+    {
+        onWaveEnded?.Invoke();
     }
 }
 

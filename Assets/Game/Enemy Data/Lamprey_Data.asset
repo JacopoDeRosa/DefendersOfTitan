@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: Lamprey_Data
   m_EditorClassIdentifier: 
   _name: Lamprey
-  _icon: {fileID: 21300000, guid: 97b4cc3d0d50eaa45b7fac033b0be0fa, type: 3}
+  _icon: {fileID: 21300000, guid: eb4ce5305052f2145871f95dfec0ef50, type: 3}
+  _pointValue: 15
