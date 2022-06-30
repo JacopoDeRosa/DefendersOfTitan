@@ -5,6 +5,7 @@ using UnityEngine;
 public class BombardierController : MonoBehaviour
 {
     [SerializeField] private Health _health;
+    [SerializeField] private AudioClip _shootingClip;
     [SerializeField] private AiMover _mover;
     [SerializeField] private Rigidbody _rigidbody;
     [SerializeField] private Projectile _projectile;
@@ -51,6 +52,7 @@ public class BombardierController : MonoBehaviour
     {
         Instantiate(_projectile, _muzzle.position, _muzzle.rotation);
         _nextShotTime = Time.time + _fireRate;
+        AudioSource.PlayClipAtPoint(_shootingClip, _muzzle.position);
         _rigidbody.AddForce(-transform.forward * _recoil, ForceMode.Impulse);
     }
 }

@@ -341,7 +341,10 @@ MonoBehaviour:
   _health: {fileID: 247835074144349157}
   _mover: {fileID: 247835074144349154}
   _explosionSize: 3
-  _explosionDamage: 15
+  _explosionDamage: 50
+  _damageMask:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!114 &247835074144349154
 MonoBehaviour:
   m_ObjectHideFlags: 0

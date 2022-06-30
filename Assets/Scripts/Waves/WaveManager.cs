@@ -10,8 +10,11 @@ public class WaveManager : MonoBehaviour
     private int _currentWave = -1;
 
     public bool IsFinalWave { get => _currentWave == _allWaves.Length - 1; }
+    public int CurrentWave { get => _currentWave; }
+    public int WaveCount { get => _allWaves.Length; }
 
     public event Action onWaveEnded;
+    public event Action<Wave> onWaveStarted;
 
     public void StartNextWave()
     {
@@ -23,6 +26,7 @@ public class WaveManager : MonoBehaviour
         _currentWave++;
         _allWaves[_currentWave].StartWave();
         _allWaves[_currentWave].onWaveEnd += OnWaveEnd;
+        onWaveStarted?.Invoke(_allWaves[_currentWave]);
     }
 
     public Wave GetNextWave()

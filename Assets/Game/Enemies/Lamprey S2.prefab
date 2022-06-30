@@ -2313,6 +2313,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _health: {fileID: 7767960253060945513}
+  _shootingClip: {fileID: 8300000, guid: 994baa1daac78e4409eecb2245679d59, type: 3}
   _mover: {fileID: 7767960253060945514}
   _rigidbody: {fileID: 7767960253057342209}
   _projectile: {fileID: 268458519145881206, guid: e6289629ec1a8ca4b8c4469efdeaac66,

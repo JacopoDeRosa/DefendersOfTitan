@@ -11,7 +11,10 @@ public class Health : MonoBehaviour
 
     private bool _dead;
 
+    public int CurrentHp { get => _currentHp; }
+
     public event Action onDeath;
+    public event Action<int> onHpChange;
 
     private void Awake()
     {
@@ -23,6 +26,7 @@ public class Health : MonoBehaviour
         if (_dead) return;
         _currentHp += toAdd;
         CheckDead();
+        onHpChange?.Invoke(_currentHp);
     }
 
     public void RemoveHp(int toRemove)
@@ -30,6 +34,7 @@ public class Health : MonoBehaviour
         if (_dead) return;
         _currentHp -= toRemove;
         CheckDead();
+        onHpChange?.Invoke(_currentHp);
     }
 
     private void CheckDead()

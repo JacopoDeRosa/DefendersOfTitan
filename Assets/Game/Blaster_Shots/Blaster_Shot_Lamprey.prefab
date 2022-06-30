@@ -142,7 +142,7 @@ GameObject:
   - component: {fileID: 8509451168153501669}
   - component: {fileID: 268458519145881206}
   m_Layer: 0
-  m_Name: Blaster_Shot_Bombardier
+  m_Name: Blaster_Shot_Lamprey
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -181,4 +181,4 @@ MonoBehaviour:
   _damage: 15
   _collisionMask:
     serializedVersion: 2
-    m_Bits: 73
+    m_Bits: 193
