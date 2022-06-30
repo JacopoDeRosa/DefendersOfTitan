@@ -220,6 +220,41 @@ PrefabInstance:
       propertyPath: m_fontSizeBase
       value: 65
       objectReference: {fileID: 0}
+    - target: {fileID: 8900396864221130797, guid: 2acecff2c82b23e45b5da5b61ada00b4,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8900396864221130797, guid: 2acecff2c82b23e45b5da5b61ada00b4,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8900396864221130797, guid: 2acecff2c82b23e45b5da5b61ada00b4,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 714427255}
+    - target: {fileID: 8900396864221130797, guid: 2acecff2c82b23e45b5da5b61ada00b4,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8900396864221130797, guid: 2acecff2c82b23e45b5da5b61ada00b4,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Quit
+      objectReference: {fileID: 0}
+    - target: {fileID: 8900396864221130797, guid: 2acecff2c82b23e45b5da5b61ada00b4,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CommonMenuMethods, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8900396864221130797, guid: 2acecff2c82b23e45b5da5b61ada00b4,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 8900396864221130798, guid: 2acecff2c82b23e45b5da5b61ada00b4,
         type: 3}
       propertyPath: m_Pivot.x
@@ -1555,6 +1590,41 @@ PrefabInstance:
         type: 3}
       propertyPath: m_fontSizeBase
       value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 8900396864221130797, guid: 2acecff2c82b23e45b5da5b61ada00b4,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8900396864221130797, guid: 2acecff2c82b23e45b5da5b61ada00b4,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8900396864221130797, guid: 2acecff2c82b23e45b5da5b61ada00b4,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2039258531}
+    - target: {fileID: 8900396864221130797, guid: 2acecff2c82b23e45b5da5b61ada00b4,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8900396864221130797, guid: 2acecff2c82b23e45b5da5b61ada00b4,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadActiveLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 8900396864221130797, guid: 2acecff2c82b23e45b5da5b61ada00b4,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LevelSelector, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8900396864221130797, guid: 2acecff2c82b23e45b5da5b61ada00b4,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8900396864221130798, guid: 2acecff2c82b23e45b5da5b61ada00b4,
         type: 3}
@@ -3393,6 +3463,7 @@ GameObject:
   - component: {fileID: 714427251}
   - component: {fileID: 714427250}
   - component: {fileID: 714427254}
+  - component: {fileID: 714427255}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -3568,6 +3639,18 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
     _subMenus: []
+--- !u!114 &714427255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 714427249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26b0336fe8feeba4985e075813e42ab7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &816827736
 GameObject:
   m_ObjectHideFlags: 0
@@ -8952,8 +9035,7 @@ MonoBehaviour:
     _difficulty: 0
     _icon: {fileID: 21300000, guid: 84458ef22a6fd62458442736341a405d, type: 3}
     _camera: {fileID: 2028132495}
-    _scene:
-      m_Handle: 0
+    _sceneIndex: 1
   - _levelName: 'Collins
 
       Twins'
@@ -8962,8 +9044,7 @@ MonoBehaviour:
     _difficulty: 0
     _icon: {fileID: 21300000, guid: 84458ef22a6fd62458442736341a405d, type: 3}
     _camera: {fileID: 401903304}
-    _scene:
-      m_Handle: 0
+    _sceneIndex: 0
   - _levelName: 'Currie''s
 
       Pass'
@@ -8972,8 +9053,7 @@ MonoBehaviour:
     _difficulty: 1
     _icon: {fileID: 21300000, guid: 84458ef22a6fd62458442736341a405d, type: 3}
     _camera: {fileID: 49740697}
-    _scene:
-      m_Handle: 0
+    _sceneIndex: 0
   - _levelName: 'Stafford''s
 
       Valley'
@@ -8982,8 +9062,7 @@ MonoBehaviour:
     _difficulty: 1
     _icon: {fileID: 21300000, guid: 84458ef22a6fd62458442736341a405d, type: 3}
     _camera: {fileID: 1674481507}
-    _scene:
-      m_Handle: 0
+    _sceneIndex: 0
   - _levelName: 'Aldrin
 
       Gate'
@@ -8992,8 +9071,7 @@ MonoBehaviour:
     _difficulty: 2
     _icon: {fileID: 21300000, guid: 84458ef22a6fd62458442736341a405d, type: 3}
     _camera: {fileID: 1819457929}
-    _scene:
-      m_Handle: 0
+    _sceneIndex: 0
   - _levelName: 'Armstrong''s
 
       Defence'
@@ -9003,8 +9081,7 @@ MonoBehaviour:
     _difficulty: 3
     _icon: {fileID: 21300000, guid: 84458ef22a6fd62458442736341a405d, type: 3}
     _camera: {fileID: 1913432951}
-    _scene:
-      m_Handle: 0
+    _sceneIndex: 0
   _icon: {fileID: 259797295}
   _name: {fileID: 2615156056795076993}
   _description: {fileID: 578334231}

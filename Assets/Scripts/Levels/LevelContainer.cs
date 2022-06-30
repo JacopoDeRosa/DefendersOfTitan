@@ -12,7 +12,7 @@ public class LevelContainer
     [SerializeField] private Difficulties _difficulty;
     [SerializeField] private Sprite _icon;
     [SerializeField] private CinemachineVirtualCamera _camera;
-    [SerializeField] private Scene _scene;
+    [SerializeField] private int _sceneIndex;
 
 
     public string LevelName { get => _levelName; }
@@ -20,4 +20,5 @@ public class LevelContainer
     public Difficulties Difficulty { get => _difficulty; }
     public Sprite Icon { get => _icon; }
     public CinemachineVirtualCamera Camera { get => _camera; }
+    public int Scene { get => _sceneIndex; }
 }
