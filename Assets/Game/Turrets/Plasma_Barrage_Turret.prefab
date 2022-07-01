@@ -141,6 +141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _icon: {fileID: 21300000, guid: 71319966fddf65d49aeaea0409723ac9, type: 3}
+  _cost: 75
   _turretType: 1
 --- !u!1 &2084467556250634385
 GameObject:

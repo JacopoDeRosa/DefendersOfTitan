@@ -6,6 +6,7 @@ using TMPro;
 public class PointKeeper : MonoBehaviour
 {
     [SerializeField] private TMP_Text _scoreText;
+    [SerializeField] private int _startScore;
 
     private int _score;
 
@@ -16,6 +17,8 @@ public class PointKeeper : MonoBehaviour
         {
             spawner.onCharacterSpawn += RegisterCharacter;
         }
+        _score += _startScore;
+        ReDrawScore();
     }
     private void RegisterCharacter(Character character)
     {
@@ -31,5 +34,16 @@ public class PointKeeper : MonoBehaviour
     private void ReDrawScore()
     {
         _scoreText.text = _score.ToString().PadLeft(6, '0');
+    }
+
+    public bool TrySpendPoints(int amount)
+    {
+        if (_score < amount) return false;
+
+        _score -= amount;
+
+        ReDrawScore();
+
+        return true;
     }
 }
